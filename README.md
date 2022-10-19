@@ -41,4 +41,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-And that's it! Play around the the <MercuryChat /> component's properties until you have the functionality that you like!
+And that's it! Play around the ```<MercuryChat />``` component's properties until you have the functionality that you like!
