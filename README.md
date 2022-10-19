@@ -10,7 +10,7 @@ To get Mercury Chat in your application, we will need to install the [Mercury Ch
 npm install @mercury-chat/react-chat
 ```
 
-Note: You can also use yarn, or pnpm to install the package.
+<b>Note</b>: You can also use yarn, or pnpm to install the package.
 
 After this we need to add this to our application:
 
@@ -18,14 +18,18 @@ After this we need to add this to our application:
 <MercuryChat />
 ```
 
-And we're done! Congradulations you have successfully added Mercury Chat to your Cardano Dapp!
+And we're done! Congratulations you have successfully added Mercury Chat to your Cardano Dapp!
+
+<br />
 
 ## Options
-There are some options that are allowed to be used to customize the MercuryChat experience. Below is an example of the options that can be used. The full option documentation can be found in the [Mercury Chat NPM Page](https://www.npmjs.com/package/@mercury-chat/react-chat):
+There are some options allow you to customize the Mercury Chat experience. Below is an example of the options that can be used. The full option documentation can be found in the [Mercury Chat NPM Page](https://www.npmjs.com/package/@mercury-chat/react-chat)
 
 ```
 <MercuryChat position={'bottom-right'} hasFullscreen={true} showBackground={true} />
 ```
+
+<br />
 
 ## Running This Repository
 
