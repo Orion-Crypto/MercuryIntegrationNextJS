@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project that integrates [Mercury Chat](
 
 This repository serves as an example to showcase how you can embed Mercury Chat into your Cardano DAPP. This example works for both Typescript and Javascript frontends.
 
-</br />
+<br />
 
 ## Integration
 
@@ -24,12 +24,20 @@ And we're done! Congratulations you have successfully added Mercury Chat to your
 
 <br />
 
+![NextFullscreen](https://user-images.githubusercontent.com/17760631/196579669-c1bd1652-eeb1-4802-b67b-82127fe18700.PNG)
+
+<br />
+
 ## Options
 There are some options allow you to customize the Mercury Chat experience. Below is an example of the options that can be used. The full option documentation can be found in the [Mercury Chat NPM Page](https://www.npmjs.com/package/@mercury-chat/react-chat)
 
 ```
-<MercuryChat position={'bottom-right'} hasFullscreen={true} showBackground={true} />
+<MercuryChat position={'bottom-right'} hasFullscreen={false} showBackground={false} />
 ```
+
+<br />
+
+![NextSmallScreen](https://user-images.githubusercontent.com/17760631/196579634-7f626535-b0c7-4a43-93df-1e1f48f600d2.PNG)
 
 <br />
 
