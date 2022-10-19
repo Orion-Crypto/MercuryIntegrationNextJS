@@ -1,13 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project that integrates [Mercury Chat](https://mercurychat.io/), a Cardano wallet communication platform!
 
-## Getting Started
+This repository serves as an example to showcase how you can embed Mercury Chat into your Cardano DAPP.
 
-First, run the development server:
+## Integration
+
+To get Mercury Chat in your application, we will need to install the [Mercury Chat React Package](https://www.npmjs.com/package/@mercury-chat/react-chat):
+
+```bash
+npm install @mercury-chat/react-chat
+```
+
+Note: You can also use yarn, or pnpm to install the package.
+
+After this we need to add this to our application:
+
+```
+<MercuryChat />
+```
+
+And we're done! Congradulations you have successfully added Mercury Chat to your Cardano Dapp!
+
+## Options
+There are some options that are allowed to be used to customize the MercuryChat experience. Below is an example of the options that can be used. The full option documentation can be found in the [Mercury Chat NPM Page](https://www.npmjs.com/package/@mercury-chat/react-chat):
+
+```
+<MercuryChat position={'bottom-right'} hasFullscreen={true} showBackground={true} />
+```
+
+## Running This Repository
+
+If you would like to test our the Mercury Chat functionality within this repo, clone the repo and then run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
