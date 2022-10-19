@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project that integrates [Mercury Chat](
 
 This repository serves as an example to showcase how you can embed Mercury Chat into your Cardano DAPP. This example works for both Typescript and Javascript frontends.
 
+</br />
+
 ## Integration
 
 To get Mercury Chat in your application, we will need to install the [Mercury Chat React Package](https://www.npmjs.com/package/@mercury-chat/react-chat):
